@@ -17,7 +17,6 @@ public class Char2Number {
                 sb.append(ch).append(" ");
             }
         }
-//        System.out.print(sb.toString());
         return sb.toString().trim();
     }
 
