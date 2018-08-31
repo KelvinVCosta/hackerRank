@@ -1,4 +1,4 @@
-package introduction;
+package edu.practice.java.introduction;
 
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package edu.challenge;
+
 
 /**
  * @author Kelvin

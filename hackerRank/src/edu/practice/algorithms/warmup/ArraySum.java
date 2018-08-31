@@ -1,0 +1,52 @@
+package edu.practice.algorithms.warmup;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Kelvin
+ */
+public class ArraySum {
+
+    static int getSizeArray() {
+        int size;
+        try (Scanner scan = new Scanner(System.in)) {
+            size = Integer.parseInt(scan.nextLine());
+        }
+        return size;
+    }
+
+    static int[] getArrayValues(int size) {
+        String[] values;
+        try (Scanner scan = new Scanner(System.in)) {
+            values = scan.nextLine().split(" ");
+        }
+        int[] array = new int[size];
+        for (int i = 0; i < size; i++) {
+            array[i] = Integer.parseInt(values[i]);
+        }
+        return array;
+    }
+    
+    static int sumArray(int[] array){
+        int sum = 0;
+        for(int value : array){
+            sum += value;
+        }
+        return sum;
+    }
+    
+    static void printSumArray(int sum){
+        System.out.println(sum);
+    }
+    
+    public static void main(String[] args){
+        int size = getSizeArray();
+        int[] array = getArrayValues(size);
+        System.out.println(size);
+        for(int value : array){
+            System.out.print(value + " ");
+        }
+    }
+    
+}
