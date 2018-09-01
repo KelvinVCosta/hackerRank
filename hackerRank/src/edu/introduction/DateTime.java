@@ -1,4 +1,4 @@
-package introduction;
+package edu.introduction;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
