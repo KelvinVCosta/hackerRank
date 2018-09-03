@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author 670543
+ * @author Kelvin
  */
 public class CurrencyFormatter {
 
