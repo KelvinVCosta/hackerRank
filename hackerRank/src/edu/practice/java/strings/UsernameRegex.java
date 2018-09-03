@@ -17,6 +17,7 @@ public class UsernameRegex {
     private static final Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
+        System.out.println("Start");
         int n = Integer.parseInt(scan.nextLine());
         while (n-- != 0) {
             String userName = scan.nextLine();
@@ -26,6 +27,7 @@ public class UsernameRegex {
                 System.out.println("Invalid");
             }
         }
+        System.out.println("End");
     }
 
 }
