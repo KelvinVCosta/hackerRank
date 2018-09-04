@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 class UsernameValidator {
 
-    public static final String regularExpression = "^[aA-Zz]\\w{7,29}$";
+    public static final String regularExpression = "^[A-Z|a-z]\\w{7,29}$";
 }
 
 //main já criado e não passivel de alterações
