@@ -30,13 +30,11 @@ public class TagContentExtractorTest {
     public void testMain() throws IOException {
         String lineBreaker = System.getProperty("line.separator");
         StringBuilder sb = new StringBuilder();
-        sb.append("Start").append(lineBreaker);
         sb.append("Nayeem loves counseling").append(lineBreaker);
         sb.append("Sanjay has no watch").append(lineBreaker);
         sb.append("So wait for a while").append(lineBreaker);
         sb.append("None").append(lineBreaker);
         sb.append("Imtiaz has a secret crush").append(lineBreaker);
-        sb.append("End").append(lineBreaker);
         String expected = sb.toString();
 
         File input = new File("test/resources/TagContentExtractorTestInput.txt");
